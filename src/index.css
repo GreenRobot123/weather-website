@@ -1,0 +1,76 @@
+:root {
+  justify-content: center;
+  text-align: center;
+  font-family: "Silkscreen", sans-serif;
+  text-transform: capitalize;
+  color-scheme: light;
+  font-size: 40px;
+}
+
+h1 {
+  margin: 10px;
+}
+
+input {
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 8px solid #000000;
+  margin: 0;
+}
+
+button {
+  font-size: 20px;
+
+  padding: 20px;
+  border: 8px solid #000000;
+}
+
+.weather-info {
+  background-color: #ffffff;
+  padding: 5px;
+  margin: 10px;
+  border: 8px solid #000000;
+}
+
+.text-box {
+  background-color: #77ff77;
+  padding: 20px;
+  border: 8px solid #000000;
+  border-radius: 50px / 25px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 10%;
+}
+
+html {
+  margin: 0;
+}
+
+.main {
+  height: 100%;
+}
+
+body {
+  background: url("https://img.freepik.com/free-vector/pixel-art-rural-landscape-background_52683-125379.jpg?w=2000&t=st=1702446990~exp=1702447590~hmac=1a95e5ac79fbfe80a702d4cdeb05e7abbeb430c918910ed30c689fcc8ab9cb8c")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: "Silkscreen", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+}
